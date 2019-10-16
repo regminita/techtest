@@ -5,8 +5,8 @@ An adapter service accept user data in csv format and prepares them for import s
 ## Framework Used
 Codeigniter (version 3.x)
 ## Prerequisites 
-PHP version 5.6 or newer
-Apache server running
+- PHP version 5.6 or newer
+- Apache server running
 
 ## Installation
  - Clone or download the project from repository
@@ -16,13 +16,13 @@ Apache server running
  - You can test the api using Postman with POST request
  url: http://localhost/{projectname}/index.php/csvdataprocessor/processcsvdata
  - Sample CSV file is located at the root of the project which will be proccessed by API
- - You can also pass the csv file via POST request in Postman (KEY = 'filepath')
- eg: key: filepath, value:  C:\\yourdirectory\\sample_user.csv
+ - You can also pass the csv file via POST request in Postman (KEY = 'filepath') <br/>
+ 			eg: key: filepath, value:  C:\\yourdirectory\\sample_user.csv
  - The API should output JSON object representing total success and error records and the location of generated success and error files
  
  # Note
- - The Api call will generate two files in the root folder 
-   sample_users_successful.json - for success record
+ - The Api call will generate two files in the root folder <br />
+   sample_users_successful.json - for success record <br />
    sample_users_failure.json - for failed records
  - You can make changes in the config file located in application/config/csv_config.php to modify the file location and other variables
  
