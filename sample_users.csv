@@ -1,0 +1,14 @@
+First Name,Last Name,Email,Platforms,Password,Job Title,Department
+John,Smith,john.smith@gmail.com,web,password1,Developer,Engineering
+,,nouser@gmail.com,"web,ios",password,,
+Adams,Zafar,adams.zafar@gmail.com,web,password2,QA,
+Baker,Yakub,baker.yakub@gmail.com,"web,ios",Password3,Manager,Management
+Ron,Jones,ronjonesatgmail.com,web,Password3,Manager,Management
+Clark,Xiang,Clark.xiang@gmail.com,android,password4,,HR
+Davis,White,clark.white@gmail.com,android,Password5,,HR
+Evans,Valdo,evans.valdo@gmail.com,android,Password6,Senior Engineer,
+Frank,Usman,frank.usman@gmail.com,"web,ios,android",Password7,PO,
+Ghosh,Trott,ghosh.trott@gmail.com,windows,Password8,Scrum Master,
+Hills,Smith,hills.smith@gmail.com,"web,ios,android",Password9,Junior Developer,
+Irwin,Reily,irwin.reily@gmail.com,"windows,ios",Password10,,
+Newt,Rick,newt.rick@gmail.com,"web,ios",bad,,HR
